@@ -73,9 +73,9 @@ def get_data():
                     match_info = get_match_schedule(match_link+"/info")
                     print(match_info)
                 except:
+                    match_info = "NA"
                     print("Unable to get match schedule try again later")
                 livescore = "NA"
-                match_info = "NA"
                 p11 = "NA"
                 scorecard = "NA"
             result.append(
